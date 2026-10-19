@@ -1,0 +1,28 @@
+# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
+
+# Terraform / OpenTofu
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfstate.d/
+**/terraform.tfvars
+**/terraform.tfvars.json
+crash.log
+
+# Dependencias y archivos temporales
+**/node_modules/
+*.log
+*.tmp
+*.bak
+
+# Archivos de respaldo y pruebas
+backend-deploy.zip
+backend-deploy-actualizado.zip
+frontend-deploy.zip
+prueba-agente.txt
+
+# Ejecutables descargados de proveedores
+**/terraform-provider-*.exe
