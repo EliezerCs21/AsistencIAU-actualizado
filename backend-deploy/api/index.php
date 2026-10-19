@@ -4,8 +4,8 @@ declare(strict_types=1);
 session_name(getenv('SESSION_NAME') ?: 'asistenciau_session');
 session_set_cookie_params([
     'httponly' => true,
-    'secure' => true,
-    'samesite' => 'None',
+    'secure' => false,
+    'samesite' => 'Lax',
 ]);
 session_start();
 
